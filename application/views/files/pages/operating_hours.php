@@ -19,7 +19,7 @@
 <body>
 
 <?php echo $loading; ?>
-<?php echo $navigation_link_2; ?>
+<?php echo $header2; ?>
 
 <div class="page-header">
     <div class="container">
@@ -35,7 +35,8 @@
 
 <div class="container mt-80 mb-80"></div>
 
-    <?php echo $footer; ?>
+    <?php echo $footer2; ?>
+      <?php echo $gcse_modal; ?>
     <?php echo $sub_view_js_files; ?>
 </body>
 </html>

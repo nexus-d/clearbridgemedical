@@ -12,7 +12,7 @@ class Home extends CORE_Controller
     public function index() {
     $data['main_view_css_files']=$this->load->view('files/templates/main_view_css_files','',TRUE);
     $data['main_view_js_files']=$this->load->view('files/templates/main_view_js_files','',TRUE);
-    $data['home_header']=$this->load->view('files/templates/home_header','',TRUE);
+    $data['header']=$this->load->view('files/templates/header','',TRUE);
     $data['loading']=$this->load->view('files/templates/loading','',TRUE);
     $data['footer']=$this->load->view('files/templates/footer','',TRUE);
     $data['gcse_modal']=$this->load->view('files/templates/gcse_modal','',TRUE);

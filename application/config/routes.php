@@ -75,3 +75,6 @@ $route['contact-us/e-appointment'] 		= 'ContactUs/loadPageEappointment';
 $route['contact-us/enquiry'] 			= 'ContactUs/loadPageEnquiry';
 $route['contact-us/mailing-address'] 	= 'ContactUs/loadPageMailingAddress';
 $route['contact-us/operating-hours'] 	= 'ContactUs/loadPageOperatingHours';
+
+
+$route['sitemap\.xml'] = "Seo/sitemap";

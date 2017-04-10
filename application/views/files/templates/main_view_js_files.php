@@ -19,6 +19,7 @@
     <!-- Owl Carousel 2.0.0 -->
     <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
     
+    
     <!-- Bootstrap Select (Dropdown Styling) -->
     <script src="assets/js/bootstrap-select.min.js" type="text/javascript"></script>
     
@@ -37,3 +38,9 @@
     
     <!-- Custom JS -->
     <script src="assets/js/custom_script.js" type="text/javascript"></script>
+
+
+    <!-- Custom JS
+    <script src="assets/add_ons/particle_js/js/app.js" type="text/javascript"></script> -->
+
+    

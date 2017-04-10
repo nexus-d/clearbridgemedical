@@ -17,8 +17,9 @@ class Fitness extends CORE_Controller
     $data['main_view_css_files']=$this->load->view('files/templates/main_view_css_files','',TRUE);
     $data['main_view_js_files']=$this->load->view('files/templates/main_view_js_files','',TRUE);
     $data['loading']=$this->load->view('files/templates/loading','',TRUE);
-    $data['navigation_link_3']=$this->load->view('files/templates/navigation_link_3','',TRUE);
+    $data['header']=$this->load->view('files/templates/header','',TRUE);
     $data['footer']=$this->load->view('files/templates/footer','',TRUE);
+      $data['gcse_modal']=$this->load->view('files/templates/gcse_modal','',TRUE);
     $data['title']='Fitness | Clearbridge Medical Centre';
     $this->load->view('files/pages/fitness',$data);
     }

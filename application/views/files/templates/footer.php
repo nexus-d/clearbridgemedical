@@ -1,12 +1,11 @@
-    <footer class="footer-2">           <!-- footer Style 2  -->
+    <footer class="footer-3">           <!-- footer Style 2  -->
         <div class="footer-pri">            <!-- Primary Footer -->
-            
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-6">
                         <div class="widget widget-about">
                             <a href="home-version-1.html">
-                            <img src="" alt="">Clearbridge Medical</a>
+                            <img src="assets/images/footer.png" alt=""></a>
                             <br/><br/>
                             <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                             <hr/>
@@ -23,40 +22,28 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <div class="widget widget-links">
                             <h4 class="heading">Helpful Links</h4>
                             <ul>
-                                <li><a href="#">About Clearbridge Medical</a></li>
-                                <li><a href="#">Mission and Vision</a></li>
-                                <li><a href="#">Milestone</a></li>
-                                <li><a href="#">Kenkodo Test</a></li>
-                                <li><a href="#">Book Appointment</a></li>
-                                <li><a href="#">Inquire to Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="about-us">About Clearbridge Medical</a></li>
+                                <li><a href="wellness">Wellness</a></li>
+                                <li><a href="fitness">Fitness</a></li>
+                                <li><a href="types-of-test">Type of Test</a></li>
+                                <li><a href="our-programs">Our Programs</a></li>
+                                <li><a href="contact-us">Contact Us</a></li>
+    
+                                <li><a href="contact-us/e-appointment">Book Appointment</a></li>
+                                <li><a href="contact-us/enquiry">Enquiry</a></li>
+                                <li><a href="contact-us/mailing-address">Mailing Address</a></li>
+                                <li><a href="contact-us/operating-hours">Operating Hours</a></li>
+
                                 
                             </ul>
                         </div>
                     </div>
 
-                        <!--
-                    <div class="col-sm-4">
-                        <div class="widget widget-flickr">
-                            <h4 class="heading">Flickr Stream</h4>
-                            <ul>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                                <li><img src="assets/images/doctor-mini-1.jpg" alt=""></li>
-                            </ul>
-                        </div>                       
-                    </div>
-                  -->
+                     
 
                 </div>
             </div>
@@ -65,7 +52,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <span>&copy;2017 All rights Reserved. <a target="_Blank" href="http://clearbridgemedical.com/">Clearbridge Medical</a></span>
+                        <span>&copy;2017 All rights Reserved. <a target="_Blank" href="http://clearbridgemedical.com/">Clearbridge Medical Centre</a></span>
                     </div>
                 </div>
             </div>

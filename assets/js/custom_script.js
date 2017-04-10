@@ -12,4 +12,7 @@ $('.panel-group').on('hidden.bs.collapse', toggleIcon);
 $('.panel-group').on('shown.bs.collapse', toggleIcon);
 
 
+ $("#owl-example").owlCarousel();
+
+
 });

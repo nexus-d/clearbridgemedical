@@ -18,7 +18,7 @@
 <body>
 
 <?php echo $loading; ?>
-<?php echo $navigation_link_1; ?>
+<?php echo $header; ?>
 
 
 <div class="page-header custom-page-header">
@@ -49,6 +49,7 @@
 
 
     <?php echo $footer; ?>
+      <?php echo $gcse_modal; ?>
     <?php echo $main_view_js_files; ?>
 </body>
 </html>

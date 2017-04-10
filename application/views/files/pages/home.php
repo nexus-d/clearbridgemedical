@@ -16,270 +16,109 @@
 </head>
 
 <body>
-    
+
 <?php echo $loading; ?>
-    
- 
-    <?php echo $home_header; ?>
+    <?php echo $header; ?>
 
-  <!-- Slider Revolution -->
-    <div class="rev_slider_wrapper fullwidthbanner-container">
-        <div id="slider" class="rev_slider fullwidthbanner" data-version="5.0.7">    
-            <ul>    
-                <!-- Slide 1 -->
-                <li data-index="rs-129"
-                    data-transition="parallaxvertical"
-                    data-slotamount="default"  
-                    data-easein="default" 
-                    data-easeout="default" 
-                    data-masterspeed="default"  
-                    data-thumb=""  
-                    data-rotate="0"  
-                    data-fstransition="fade" 
-                    data-fsmasterspeed="1500" 
-                    data-fsslotamount="7" 
-                    data-saveperformance="off"  
-                    data-title="A STUDY ON HAPPINESS" 
-                    data-description="Nurturing the most awesome minds.">
+<div  class="carousel slide" id="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#carousel"></li>
+        <li data-slide-to="1" data-target="#carousel"></li>
+    </ol>
 
-                    <!-- MAIN IMAGE -->
-                    <img src="assets/images/dummy.jpg" data-lazyload="assets/images/home-pic1.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-
-                    <!-- Small Text
-                    <div class="tp-caption tp-resizeme rs-parallaxlevel-0 color2" 
-                        id="layer-1-small-text" 
-                        data-x="['left','left','left','left']" data-hoffset="['50','50','50','30']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-120','-120','-120','-120']" 
-                        data-width="none"
-                        data-fontsize="['24', '24', '22', '16']"
-                        data-height="28"
-                        data-color="['#1696e7']"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-                        data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;" 
-                        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                        data-mask_out="x:0;y:0;s:inherit;e:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        style="z-index: 10; white-space: nowrap; font-weight:400;">We care for you.
-                    </div> -->
-
-                    <!-- Main Text
-                    <div class="tp-caption tp-resizeme rs-parallaxlevel-0" 
-                        id="slide-1-main-text" 
-                        data-x="['left','left','left','left']" data-hoffset="['50','50','50','30']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
-                        data-fontsize="['46','46','46','32']"
-                        data-lineheight="['55','55','55','35']"
-                        data-color="['#fff']"
-                        data-width="['600','600','600','420']"
-                        data-height="120"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-                        data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;" 
-                        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                        data-mask_out="x:0;y:0;s:inherit;e:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        style="z-index: 11; min-width: 600px; max-width: 600px; font-weight:400; white-space: normal; text-shadow:0px 2px 5px #000; text-transform:capitalize; text-align:left;">Experienced doctors for your good health.
-                    </div> -->
-
-                    <!-- Button 
-                    <a href="about.html" class="tp-caption btn btn-success rs-parallaxlevel-0 hidden-xs tp-resizeme" 
-                        id="slide-1-button-1" 
-                        data-x="['left','left','left','left']" data-hoffset="['53','53','53','30']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']" 
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-                        data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;" 
-                        data-mask_in="x:0px;y:0px;" 
-                        data-mask_out="x:0;y:0;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        data-responsive="on"
-                        style="z-index: 12;">READ MORE 
-                    </a>-->
-                    
-                   
-                </li>
-
-                <!-- Slide 2 -->
-                <li data-index="rs-2"
-                    data-transition="parallaxvertical"
-                    data-slotamount="default"  
-                    data-easein="default" 
-                    data-easeout="default" 
-                    data-masterspeed="default"  
-                    data-thumb=""  
-                    data-rotate="0"  
-                    data-fstransition="fade" 
-                    data-fsmasterspeed="1500" 
-                    data-fsslotamount="7" 
-                    data-saveperformance="off"  
-                    data-title="A STUDY ON HAPPINESS" 
-                    data-description="Nurturing the most awesome minds.">
-                    <!-- MAIN IMAGE -->
-                    <img src="assets/images/dummy.jpg" data-lazyload="assets/images/home-pic4.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-
-                    <!-- Small Text 
-                    <div class="tp-caption tp-resizeme rs-parallaxlevel-0 color2" 
-                        id="layer-2-small-text" 
-                        data-x="['right','right','right','right']" data-hoffset="['50','50','50','50']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-120','-120','-120','-120']" 
-                        data-width="none"
-                        data-fontsize="['24', '24', '22', '16']"
-                        data-height="28"
-                         data-color="['#1696e7']"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-                        data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;" 
-                        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                        data-mask_out="x:0;y:0;s:inherit;e:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        style="z-index: 10; white-space: nowrap; font-weight:400; text-align:right">Affordable Advanced Treatments.
-                    </div>           -->                 
-
-                    <!-- Main Text
-                    <div class="tp-caption tp-resizeme rs-parallaxlevel-0" 
-                        id="slide-2-main-text" 
-                        data-x="['right','right','right','right']" data-hoffset="['50','50','50','50']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']" 
-                        data-fontsize="['46','46','46','32']"
-                        data-lineheight="['55','55','55','35']"
-                        data-color="['#fff']"
-                        data-width="['600','600','600','420']"
-                        data-height="120"
-                        data-whitespace="normal"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-                        data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;" 
-                        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                        data-mask_out="x:0;y:0;s:inherit;e:inherit;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        style="z-index: 11; min-width: 600px; max-width: 600px; font-weight:400; white-space: normal; text-shadow:0px 2px 5px #000; text-transform:capitalize; text-align:right;">Bringing global technology at your doorstep.
-                    </div> -->
-
-                    <!-- Button 
-                    <a href="about.html" class="tp-caption btn btn-success rs-parallaxlevel-0 hidden-xs" 
-                        id="slide-2-button-1" 
-                        data-x="['right','right','right','right']" data-hoffset="['50','50','50','50']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']" 
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-transform_idle="o:1;"
-                        data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
-                        data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;" 
-                        data-mask_in="x:0px;y:0px;" 
-                        data-mask_out="x:0;y:0;" 
-                        data-start="1000" 
-                        data-splitin="none" 
-                        data-splitout="none" 
-                        data-responsive_offset="on" 
-                        data-responsive="on"
-                        style="z-index: 12;">READ MORE 
-                    </a>-->
-                    
-                   
-                </li>
-            </ul>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="assets/images/doctor_blue.jpg" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="assets/images/doctor_blue.jpg" alt="Second slide">
         </div>
     </div>
-    <!-- Revolution Slider Ends -->
-  <!--  
-<div id="fp-nav" class="right" ><ul><li><a href="#" class="active"><span></span></a><div class="fp-tooltip right">home</div></li><li><a href="#"><span></span></a><div class="fp-tooltip right">our services</div></li><li><a href="#"><span></span></a><div class="fp-tooltip right">welcome</div></li><li><a href="#"><span></span></a><div class="fp-tooltip right">highlight</div></li><li><a href="#"><span></span></a><div class="fp-tooltip right">footer</div></li></ul></div>
 
-<div class="custom-aplha-background ">
-<button class="service_button center col-offset-sm-7"><span class="fa fa-arrow-down"> </span></button>
+    <!-- Controls -->
+    <a class="left carousel-control" data-slide="prev" href="#carousel">
+        <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="right carousel-control" data-slide="next" href="#carousel">
+        <i class="fa fa-angle-right"></i>
+    </a>
 </div>
 
 
--->
-<div class="mt-90 ">
+<div class="col-md-12 offset-t-23">
+<div  class="tri-t-right"></div>
+<div  class="tri-t-left"></div>
+</div>
+<div class="custom-bg-darkblue" >
         <div class="container">
             <div class="row">
-               <div class="col-sm-12">
-                    <div class="heading-block">
-                        <h1 class="inverse custom-heading">
-                         Featured Services</h1>
-                         
-                    </div> 
-                </div>
-               <div class="col-sm-3">
+                <div class="col-sm-3 ">
                     <div class="iconbox-4 custom-iconbox-4">
-                        <i class="med-icon icon-i-laboratory"></i>
-                        <br><br>
-                        <h4 class="heading">100+ Doctors On Panel</h4>
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <br>
-                        <a href="why-us.html" class="btn btn-black btn-sm">Read More</a>                    
+                        <span class="iconbox-icon">
+                            <i class="icon-i-social-services"></i>
+                        </span>
+                        <h4 class="heading">Wellness</h4>
+                        <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
+                        <a href="wellness" class="btn btn-xs btn-info"> Read more</a>
                     </div>
                 </div>
-                <div class="col-sm-3">
+
+                <div class="col-sm-3 ">
                     <div class="iconbox-4 custom-iconbox-4">
-                        <i class="med-icon icon-i-laboratory"></i>
-                        <br><br>
-                        <h4 class="heading">100+ Doctors On Panel</h4>
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <br>
-                        <a href="why-us.html" class="btn btn-black btn-sm">Read More</a>                    
+                        <span class="iconbox-icon">
+                            <i class="fa fa-heart"></i>
+                        </span>
+                        <h4 class="heading"> Fitness</h4>
+                        <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
+                        <a href="fitness" class="btn btn-xs btn-info"> Read more</a>
                     </div>
                 </div>
-                <div class="col-sm-3">
+
+               <div class="col-sm-3 ">
                     <div class="iconbox-4 custom-iconbox-4">
-                        <i class="med-icon icon-i-laboratory"></i>
-                        <br><br>
-                        <h4 class="heading">100+ Doctors On Panel</h4>
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <br>
-                        <a href="why-us.html" class="btn btn-black btn-sm">Read More</a>                    
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="iconbox-4 custom-iconbox-4">
-                        <i class="med-icon icon-i-laboratory"></i>
-                        <br><br>
-                        <h4 class="heading">100+ Doctors On Panel</h4>
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <br>
-                        <a href="why-us.html" class="btn btn-black btn-sm">Read More</a>                    
+                        <span class="iconbox-icon">
+                            <i class="fa fa-flask"></i>
+                        </span>
+                        <h4 class="heading"> Medical Test</h4>
+                        <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
+                        <a href="types-of-test" class="btn btn-xs btn-info"> Read more</a>
                     </div>
                 </div> 
-                
-            </div>
-        </div>
- </div>
-    
 
-<div class="container pt-60 pb-60 mt-40 custom-bgcolor2">
+                <div class="col-sm-3 ">
+                    <div class="iconbox-4 custom-iconbox-4">
+                        <span class="iconbox-icon">
+                            <i class="fa fa-stethoscope"></i>
+                        </span>
+                        <h4 class="heading">Our Programs</h4>
+                        <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
+                        <a href="our-programs" class="btn btn-xs btn-info"> Read more</a>
+                    </div>
+                </div> 
+
+
+
+            </div>    
+    </div>
+</div>   
+<div class="col-md-12">
+<div class="tri-b-right"></div>
+<div class="tri-b-left"></div>
+</div>
+
+<div class="mt-80 mb-40">
+ <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="heading-block">
-                    <h2 class="heading custom-heading-2">Who <span class="color1">Are</span> We?</h2>
+                
+                    <h2 class="heading custom-heading-max-wg">Who <span class="color1">Are</span> We?</h2>
                     <p class="sub-heading">Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                </div>
+               
             </div>
             <div class="col-sm-12">
                 <div class="iconbox-2 right">
-                    <!--<span class="count"><i class="fa fa-user"></i></span>-->
                     <div class="text">
                         <h4 class="heading">Overview</h4>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -295,97 +134,122 @@
                     </div>
                 </div>
 
-              
             </div>
-         <!--
-            <div class="col-sm-5 mt-20">
-                <img src="assets/images/doctor-bg-1.jpg" class="img-responsive" alt="">
-            </div>
-            -->
         </div>
-    </div>
+ 
+</div>
 
-  
-    <!--
-<div class="container pt-60 pb-60 mt-40  custom-bgcolor2">
+
+<div>
+<div class="container mt-80  mb-80">
+
         <div class="row">
             <div class="col-sm-12">
-                <div class="heading-block">
-                    <h2 class="heading custom-heading-2">Our <span class="color1">Speciality</span> Doctors</h2>
-                    <p class="sub-heading">Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                </div>
+                <h2 class="heading custom-heading-max-wg">We value your <span class="color1">lifestyle</span></h2>
+                
             </div>
-            <div class="col-sm-4">
-                <div class="doctor-box-2">
-                    <div class="doctor-img">    
-                        <img src="assets/images/doctor-small-1.jpg" class="img-circle" alt="">
-                    </div>
-                    <div class="doctor-name">
-                        <h4 class="heading">Mr. Roberto Blackwell</h4>
-                        <span class="doctor-desig">Head Of Department</span>
-                    </div>
-                    <hr class="hr-1">
-                    <div class="doctor-details">
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                    </div>
-                    <br>
-                    <div class="text-center">
-                        <a href="book-appointment-form.html" class="btn btn-primary btn-sm">Booking</a>
-                        <a href="doctor-single.html" class="btn btn-black btn-sm">Profile</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="doctor-box-2">
-                    <div class="doctor-img">    
-                        <img src="assets/images/doctor-small-2.jpg" class="img-circle" alt="">
-                    </div>
-                    <div class="doctor-name">
-                        <h4 class="heading">Ms. Everett Holder</h4>
-                        <span class="doctor-desig">Head Of Department</span>
-                    </div>
-                    <hr class="hr-1">
-                    <div class="doctor-details">
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                    </div>
-                    <br>
-                    <div class="text-center">
-                        <a href="book-appointment-form.html" class="btn btn-primary btn-sm">Booking</a>
-                        <a href="doctor-single.html" class="btn btn-black btn-sm">Profile</a>
+            <div class="col-sm-12">
+                <div class="tabs-1">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#t1body1" aria-controls="t1body1" role="tab" data-toggle="tab" aria-expanded="true">
+                                <strong>Wellness</strong>
+                                <span>Read</span>
+                            </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#t1body2" aria-controls="t1body2" role="tab" data-toggle="tab" aria-expanded="false">
+                                <strong>Fitness</strong>
+                                <span>Super advanced lab facilities.</span>
+                            </a>
+                        </li>
+                       
+                    </ul>
+
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade active in" id="t1body1">
+                             is more than being free from illness, it is a dynamic process of change and growth. "...a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity.
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="t1body2">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+                            <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me.</p>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="doctor-box-2">
-                    <div class="doctor-img">    
-                        <img src="assets/images/doctor-small-3.jpg" class="img-circle" alt="">
-                    </div>
-                    <div class="doctor-name">
-                        <h4 class="heading">Ms. Mike Hendricks</h4>
-                        <span class="doctor-desig">Head Of Department</span>
-                    </div>
-                    <hr class="hr-1">
-                    <div class="doctor-details">
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                    </div>
-                    <br>
-                    <div class="text-center">
-                        <a href="book-appointment-form.html" class="btn btn-primary btn-sm">Booking</a>
-                        <a href="doctor-single.html" class="btn btn-black btn-sm">Profile</a>
-                    </div>
-                </div>
-            </div>  
         </div>
     </div>
 
-    -->
+
+
+<! top style-->
+<div class="col-md-12 offset-t-23">
+<div  class="tri-t-right"></div>
+<div  class="tri-t-left"></div>
+</div>
+<! top style-->
+
+<div class="pt-40  custom-bg-darkblue home-medical-test">
+<div class="container">
+    <div class="col-sm-12">
+            <h2 class="">Medical Test</h2>
+            <p class="caption-text-p">The Backbone of our clinic</p>
+    </div>
+<div class="row">
+    <div class="col-sm-offset-2 col-sm-4">
+        <div class="event-box custom-event-box" style="background-image:url('assets/images/metabolic-icon.jpg')">
+            <div class="event-header">
+                <h3 class="heading">ECAL Test</h3>
+                <ul class="event-details">
+                    <li class="text-color-rd">Resting Metabolic Rate</li>
+                </ul>
+                <div class="event-text">
+                    <br>
+                    <p class="justify">ECAL Test measures your Resting Metabolic Rate to calculate your required calori intake in order to achieve your fitness goals.</p>
+                    <br>
+                    <a href="contact-1.html" class="btn btn-black btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="event-box custom-event-box" style="background-image:url('assets/images/metabolic-icon.jpg')">
+            <div class="event-header">
+                <h3 class="heading">Kenkodo Test</h3>
+                <ul class="event-details">
+                    <li class="text-color-rd">Metabolomic test</li>
+                </ul>
+                <div class="event-text">
+                    <br>
+                    <p class="justify">ClearBridge Medical Centre offers Kenkodo, a metabolism based body tracking tool. Kenkodo allows people to find their right work-life balance and predict their well-being.</p>
+                    <br>
+                    <a href="contact-1.html" class="btn btn-black btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>          
+</div>
+</div><!-- Home Medical Test-->
+
+<! buttom style-->
+<div class="col-md-12">
+<div  class="tri-b-right"></div>
+<div  class="tri-b-left"></div>
+</div>
+<! buttom style-->
+
+
+
 
 <div class="call-out-1 pt-60 pb-60 mt-80">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="left">
-                        <h3 class="inverse font-2 font24">Whenever you need. <strong>Wherever you need.</strong></h3>
+                        <h3 class="inverse font-2 font24">Medical Test need. <strong>Wherever you need.</strong></h3>
                         <p class="inverse">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
                     </div>
                 </div>
@@ -400,7 +264,6 @@
     </div>
 
 
-    
 <div class="pt-40 pb-40 bgcolor2 mb-80">
         <div class="container">
             <div class="row">
@@ -411,7 +274,7 @@
                         </div>
                         <div class="fact-body">
                             <span class="fact-count" data-from="0" data-to="912" data-speed="3000">912</span>
-                            <h5 class="heading">Number of Succesful Surgeries</h5>
+                            <h5 class="heading">Number of Test</h5>
                         </div>
                     </div>
                 </div>
@@ -444,13 +307,15 @@
                         </div>
                         <div class="fact-body">
                             <span class="fact-count" data-from="0" data-to="120" data-speed="3000">120</span>
-                            <h5 class="heading">emergency Vehicles Ready to Help</h5>
+                            <h5 class="heading">Emergency Ready to Help</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
 

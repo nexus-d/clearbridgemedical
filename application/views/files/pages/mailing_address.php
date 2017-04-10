@@ -19,7 +19,7 @@
 <body>
 
 <?php echo $loading; ?>
-<?php echo $navigation_link_2; ?>
+<?php echo $header2; ?>
 
 <div class="page-header">
     <div class="container">
@@ -120,8 +120,8 @@ Singapore 577177</span>">
 
 
 
-    <?php echo $footer; ?>
-
+    <?php echo $footer2; ?>
+      <?php echo $gcse_modal; ?>
     <?php echo $sub_view_js_files; ?>
 
      <script src="http://maps.google.com/maps/api/js?key=AIzaSyB4XUPGA9TMbCGypqWidsj-fx69wrxBuRU" type="text/javascript"></script>

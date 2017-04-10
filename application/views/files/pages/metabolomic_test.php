@@ -18,7 +18,7 @@
 <body>
 
 <?php echo $loading; ?>
-<?php echo $navigation_link_2; ?>
+<?php echo $header2; ?>
 
 <div class="page-header">
     <div class="container">
@@ -153,75 +153,35 @@
                                     <a href="../contact-us/e-appointment" type="submit" class="col-sm-12 btn btn-info"><i class="fa fa-paper-plane"></i>Book Appointment</a>
                                 </div>
                 
-                                <div class="widget widget-testimonial">
-                            <div class="slider-items owl-carousel owl-theme owl-center owl-loaded">
-                                
-    
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transition: 1.5s; width: 2028px; transform: translate3d(-1352px, 0px, 0px);"><div class="owl-item cloned" style="width: 308px; margin-right: 30px;">
-                                <div>
-                                    <div class="testi-img">
-                                        <img src="../assets/images/testi-1.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <div class="testi-text">
-                                        <i class="fa fa-quote-left"></i>
-                                        Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                    </div>
-                                    <span class="said-by">Christina Jones</span>
-                                </div></div><div class="owl-item cloned" style="width: 308px; margin-right: 30px;"><div>
-                                    <div class="testi-img">
-                                        <img src="../assets/images/testi-2.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <div class="testi-text">
-                                        <i class="fa fa-quote-left"></i>
-                                        Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                    </div>
-                                    <span class="said-by">Christina Jones</span>
-                                </div></div><div class="owl-item" style="width: 308px; margin-right: 30px;"><div>
-                                    <div class="testi-img">
-                                        <img src="../assets/images/testi-1.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <div class="testi-text">
-                                        <i class="fa fa-quote-left"></i>
-                                        Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                    </div>
-                                    <span class="said-by">Christina Jones</span>
-                                </div></div><div class="owl-item" style="width: 308px; margin-right: 30px;"><div>
-                                    <div class="testi-img">
-                                        <img src="../assets/images/testi-2.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <div class="testi-text">
-                                        <i class="fa fa-quote-left"></i>
-                                        Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                    </div>
-                                    <span class="said-by">Christina Jones</span>
-                                </div></div><div class="owl-item cloned active center" style="width: 308px; margin-right: 30px;"><div>
-                                    <div class="testi-img">
-                                        <img src=".../assets/images/testi-1.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <div class="testi-text">
-                                        <i class="fa fa-quote-left"></i>
-                                        Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                    </div>
-                                    <span class="said-by">Christina Jones</span>
-                                </div></div><div class="owl-item cloned" style="width: 308px; margin-right: 30px;"><div>
-                                    <div class="testi-img">
-                                        <img src="../assets/images/testi-2.jpg" class="img-circle" alt="">
-                                    </div>
-                                    <div class="testi-text">
-                                        <i class="fa fa-quote-left"></i>
-                                        Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
-                                    </div>
-                                    <span class="said-by">Christina Jones</span>
-                                </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
-                            <div class="slider-nav">
-                                <div class="left"><i class="fa fa-angle-left"></i></div>
-                                <div class="right"><i class="fa fa-angle-right"></i></div>
-                            </div>
-                        </div>      
-                       
-
                 
-
+ <div class="widget widget-testimonial">
+                       <div class="news-slider style-3">
+                    <div class="slider-items">
+                        <div>
+                            <h4 class="heading">Program 1</h4>
+                            <hr class="hr-2 left" />
+                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                            <a href="#" class="btn btn-sm btn-info">Read More</a>
+                        </div>
+                        <div>
+                            <h4 class="heading">Program 2</h4>
+                            <hr class="hr-2 left" />
+                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                            <a href="#" class="btn btn-sm btn-info">Read More</a>
+                        </div>
+                        <div>
+                            <h4 class="heading">Program 3</h4>
+                            <hr class="hr-2 left" />
+                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                            <a href="#" class="btn btn-sm btn-info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <div class="left"><i class="fa fa-angle-left"></i></div>
+                        <div class="right"><i class="fa fa-angle-right"></i></div>
+                    </div>
+                </div>
+                    </div>
 
 
                     </aside>
@@ -235,7 +195,8 @@
 
 
 
-    <?php echo $footer; ?>
+    <?php echo $footer2; ?>
+      <?php echo $gcse_modal; ?>
     <?php echo $sub_view_js_files; ?>
 </body>
 </html>

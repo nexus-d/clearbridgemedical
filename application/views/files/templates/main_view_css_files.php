@@ -30,7 +30,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href="assets/css/animate.css" type="text/css" rel="stylesheet">
 
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">   
     
     <!-- Custom CSS -->
     <link href="assets/css/custom.css" type="text/css" rel="stylesheet">
@@ -39,3 +43,5 @@
     <!--Lato Fonts Style -->
     <link href="assets/add_ons/css/css.css" type="text/css" rel="stylesheet">
 
+    <!--
+    <link href="assets/add_ons/particle_js/css/style.css" type="text/css" rel="stylesheet">-->

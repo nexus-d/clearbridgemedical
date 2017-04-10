@@ -37,6 +37,7 @@
 
 
     <?php echo $footer; ?>
+      <?php echo $gcse_modal; ?>
     <?php echo $sub_view_js_files; ?>
 </body>
 </html>
