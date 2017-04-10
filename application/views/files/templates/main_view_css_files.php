@@ -23,6 +23,7 @@
     <!--Google Fonts--> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Roboto:100,300i,400" rel="stylesheet">
     
     <!-- Respond.js and HTML shiv provide HTML5 support in older browsers like IE9 and 8 -->
     <!--[if lt IE 9]>

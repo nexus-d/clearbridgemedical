@@ -25,15 +25,24 @@
     <ol class="carousel-indicators">
         <li class="active" data-slide-to="0" data-target="#carousel"></li>
         <li data-slide-to="1" data-target="#carousel"></li>
+        <li data-slide-to="2" data-target="#carousel"></li>
+        <li data-slide-to="3" data-target="#carousel"></li>
+        <li data-slide-to="4" data-target="#carousel"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="assets/images/doctor_blue.jpg" alt="First slide">
+            <img src="assets/images/Untitled-5.png" alt="First slide">
         </div>
         <div class="item">
-            <img src="assets/images/doctor_blue.jpg" alt="Second slide">
+            <img src="assets/images/Untitled-6.png" alt="Second slide">
+        </div>
+          <div class="item">
+            <img src="assets/images/Untitled-3.png" alt="Second slide">
+        </div>
+          <div class="item">
+            <img src="assets/images/Untitled-7.png" alt="Second slide">
         </div>
     </div>
 
@@ -46,11 +55,11 @@
     </a>
 </div>
 
-
+<!--
 <div class="col-md-12 offset-t-23">
 <div  class="tri-t-right"></div>
 <div  class="tri-t-left"></div>
-</div>
+</div>-->
 <div class="custom-bg-darkblue" >
         <div class="container">
             <div class="row">
@@ -103,15 +112,16 @@
             </div>    
     </div>
 </div>   
+<!--
 <div class="col-md-12">
 <div class="tri-b-right"></div>
 <div class="tri-b-left"></div>
-</div>
+</div>-->
 
 <div class="mt-80 mb-40">
  <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-6">
                 
                     <h2 class="heading custom-heading-max-wg">Who <span class="color1">Are</span> We?</h2>
                     <p class="sub-heading">Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
@@ -120,19 +130,23 @@
             <div class="col-sm-12">
                 <div class="iconbox-2 right">
                     <div class="text">
-                        <h4 class="heading">Overview</h4>
+                        <h4 class="heading">About Us</h4>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="why-us.html" class="btn btn-info btn-sm">Read More</a>    
+                        <a href="about-us" class="btn btn-info btn-sm">Read More</a>    
                     </div>
                 </div>
+
+
+                <img src="">
+                <!--
                 <div class="iconbox-2 right">
-                    <!--<span class="count"><i class="fa fa-user"></i></span>-->
-                    <div class="text">
+                    <!--<span class="count"><i class="fa fa-user"></i></span>
+                   <div class="text">
                         <h4 class="heading">Mission and Vision</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                         <a href="why-us.html" class="btn btn-info btn-sm">Read More</a>    
                     </div>
-                </div>
+                </div>-->
 
             </div>
         </div>
@@ -145,7 +159,7 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="heading custom-heading-max-wg">We value your <span class="color1">lifestyle</span></h2>
+                <h2 class="heading custom-heading-max-wg">We value your <span class="color1">Life</span></h2>
                 
             </div>
             <div class="col-sm-12">
@@ -154,13 +168,13 @@
                         <li role="presentation" class="active">
                             <a href="#t1body1" aria-controls="t1body1" role="tab" data-toggle="tab" aria-expanded="true">
                                 <strong>Wellness</strong>
-                                <span>Read</span>
+                                <span> <br/ ></span>
                             </a>
                         </li>
                         <li role="presentation" class="">
                             <a href="#t1body2" aria-controls="t1body2" role="tab" data-toggle="tab" aria-expanded="false">
                                 <strong>Fitness</strong>
-                                <span>Super advanced lab facilities.</span>
+                                <span><br/ ></span>
                             </a>
                         </li>
                        
@@ -181,14 +195,9 @@
         </div>
     </div>
 
+<div class="add_ons_gradient"> <!--gradient div-->
 
 
-<! top style-->
-<div class="col-md-12 offset-t-23">
-<div  class="tri-t-right"></div>
-<div  class="tri-t-left"></div>
-</div>
-<! top style-->
 
 <div class="pt-40  custom-bg-darkblue home-medical-test">
 <div class="container">
@@ -208,7 +217,7 @@
                     <br>
                     <p class="justify">ECAL Test measures your Resting Metabolic Rate to calculate your required calori intake in order to achieve your fitness goals.</p>
                     <br>
-                    <a href="contact-1.html" class="btn btn-black btn-sm">Read More</a>
+                    <a href="types-of-test/metabolomic-test" class="btn btn-black btn-sm">Read More</a>
                 </div>
             </div>
         </div>
@@ -225,7 +234,7 @@
                     <br>
                     <p class="justify">ClearBridge Medical Centre offers Kenkodo, a metabolism based body tracking tool. Kenkodo allows people to find their right work-life balance and predict their well-being.</p>
                     <br>
-                    <a href="contact-1.html" class="btn btn-black btn-sm">Read More</a>
+                    <a href="types-of-test/metabolomic-test" class="btn btn-black btn-sm">Read More</a>
                 </div>
             </div>
         </div>
@@ -234,14 +243,9 @@
 </div>
 </div><!-- Home Medical Test-->
 
-<! buttom style-->
-<div class="col-md-12">
-<div  class="tri-b-right"></div>
-<div  class="tri-b-left"></div>
+
+
 </div>
-<! buttom style-->
-
-
 
 
 <div class="call-out-1 pt-60 pb-60 mt-80">
@@ -263,6 +267,9 @@
         </div>
     </div>
 
+
+
+</div><!--gradient div-->
 
 <div class="pt-40 pb-40 bgcolor2 mb-80">
         <div class="container">
