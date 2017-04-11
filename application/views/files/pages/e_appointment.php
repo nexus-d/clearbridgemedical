@@ -41,11 +41,12 @@
                     <h3>E -  Appointment Form <span class="color1"></span></h3>
                     <p>Please complete our online form below.</p>
                     <div class="frm_data custom-default-form" style="">  
-<form>
+<form id="frm-data">
 <div class="row">
     <div class="col-sm-12">
         <div class="form-group">
-            <input class="form-control" type="text" placeholder="Fullname *">
+            <input class="form-control has-error" type="text" name="fullname" placeholder="Fullname *"
+             data-error-msg="Fullname name is required." required>
         </div>
     </div>
 </div> 
@@ -53,13 +54,14 @@
 <div class="row">
     <div class="col-sm-6">
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Email *">
+        <input class="form-control" type="text"  name="email"  placeholder="Email *"  
+        data-error-msg="Email name is required." required >
     </div>
     </div>
 
     <div class="col-sm-6">
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Phone #">
+        <input class="form-control" type="text"  name="phone"  placeholder="Phone #" >
     </div>
     </div>
 
@@ -67,16 +69,16 @@
 <div class="row">
     <div class="col-sm-6">
         <div class="form-group">
-            <input class="form-control date-select" type="text" placeholder="Date Of Birth *">
+            <input class="form-control date-select"  data-date-format='yy-mm-dd'  name="birthdate"  type="text" placeholder="Date Of Birth *"  data-error-msg="Date of Birth name is required." required>
         </div>
     </div>
     <div class="col-sm-6">
         <div class="form-group">
-            <select class="" tabindex="-98">
+            <select class="" tabindex="-98" name="country">
                 <option>Select Country</option>
-                <option>Singapore</option>
-                <option>Malaysia</option>
-                <option>Philippines</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Philippines">Philippines</option>
             </select>
         </div>
     </div>
@@ -86,10 +88,10 @@
         <div class="form-group">
             <label>Select Gender : * </label>
             <label class="radio-inline">
-            <input type="radio" checked="checked" name="optradio">Male
+            <input type="radio" value="Male" checked="checked" name="gender">Male
             </label>
             <label class="radio-inline">
-            <input type="radio" name="optradio">Female
+            <input type="radio" value="Female" name="gender">Female
             </label>
         </div>
     </div>
@@ -97,16 +99,16 @@
 <div class="row">
     <div class="col-sm-6">
         <div class="form-group">
-            <input class="form-control date-select" type="text" placeholder="Appointment Date">
+            <input class="form-control date-select" type="text"  name="appointment_date" placeholder="Appointment Date">
         </div>
     </div>
     <div class="col-sm-6">
         <div class="form-group">
-            <select class="" tabindex="-98">
+            <select class="" tabindex="-98" name="appointment_time">
                 <option>Select Slot</option>
-                <option>9:00 p.m. - 12:00 p.m.</option>
-                <option>12:00 p.m. - 4:00 p.m.</option>
-                <option>4:00 p.m. - 8:00 p.m.</option>
+                <option value="9:00 p.m. - 12:00 p.m.">9:00 p.m. - 12:00 p.m.</option>
+                <option value="12:00 p.m. - 4:00 p.m.">12:00 p.m. - 4:00 p.m.</option>
+                <option value="4:00 p.m. - 8:00 p.m.">4:00 p.m. - 8:00 p.m.</option>
             </select>
         </div>
     </div>
@@ -127,7 +129,7 @@
 <div class="row">
 <div class="col-sm-6">
 <div class="form-group">
-        <a href="../contact-us/e-appointment" type="submit" class="col-sm-12 btn btn-info"><i class="fa fa-paper-plane"></i> Submit</a>
+        <button class="col-sm-12 btn btn-info" id="btn-submit-eapps"><i class="fa fa-paper-plane"></i> Submit</button>
     </div>
 </div>
 </div>

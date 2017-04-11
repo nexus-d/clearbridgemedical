@@ -77,4 +77,5 @@ $route['contact-us/mailing-address'] 	= 'ContactUs/loadPageMailingAddress';
 $route['contact-us/operating-hours'] 	= 'ContactUs/loadPageOperatingHours';
 
 
+
 $route['sitemap\.xml'] = "Seo/sitemap";

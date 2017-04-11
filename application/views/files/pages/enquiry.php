@@ -39,11 +39,12 @@
                     <h3>Enquiry Form <span class="color1"></span></h3>
                     <p>Please complete our online form below.</p>
                     <div class="frm_data custom-default-form" style="">  
-                        <form>
+<form id="frm-data">                     
 <div class="row">
     <div class="col-sm-12">
         <div class="form-group">
-            <input class="form-control" type="text" placeholder="Fullname *">
+           <input class="form-control has-error" type="text" name="fullname" placeholder="Fullname *"
+             data-error-msg="Fullname name is required." required>
         </div>
     </div>
 </div> 
@@ -51,13 +52,14 @@
 <div class="row">
     <div class="col-sm-6">
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Email *">
+          <input class="form-control" type="text"  name="email"  placeholder="Email *"  
+        data-error-msg="Email name is required." required >
     </div>
     </div>
 
     <div class="col-sm-6">
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Phone #">
+        <input class="form-control" type="text"  name="phone"  placeholder="Phone #" >
     </div>
     </div>
 
@@ -70,7 +72,7 @@
 <div class="row">
      <div class="col-sm-12">
         <div class="form-group">
-            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            <textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
         </div>
     </div>
 </div>
@@ -79,7 +81,7 @@
 <div class="row">
 <div class="col-sm-6">
 <div class="form-group">
-        <a href="../contact-us/e-appointment" type="submit" class="col-sm-12 btn btn-info"><i class="fa fa-paper-plane"></i> Submit</a>
+         <button class="col-sm-12 btn btn-info" id="btn-submit-enq"><i class="fa fa-paper-plane"></i> Submit</button>
     </div>
 </div>
 </div>

@@ -333,7 +333,7 @@ function bootstrapSelect(){
 }
 
 function dateSelect(){
-    $('.date-select').datepicker({
+    $('.date-select').datepicker({dateFormat: 'yy-mm-dd',
         showOn: "button",
         buttonImage: "../assets/images/datepicker/calendar.png"
         }

@@ -41,3 +41,8 @@
     <!--Lato Fonts Style -->
     <link href="../assets/add_ons/css/css.css" type="text/css" rel="stylesheet">
 
+
+        <!-- Pnotify  -->
+  <link href="../assets/css/pnotify.core.css" rel="stylesheet"> 
+  
+

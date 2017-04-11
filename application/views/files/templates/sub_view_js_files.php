@@ -30,3 +30,9 @@
     
     <!-- Custom JS -->
     <script src="../assets/js/custom_script.js" type="text/javascript"></script>
+
+
+    <!-- PNotify -->
+    <script type="text/javascript" src="../assets/js/pnotify.core.js"></script>
+    <script type="text/javascript" src="../assets/js/pnotify.buttons.js"></script>
+    <script type="text/javascript" src="../assets/js/pnotify.nonblock.js"></script>
