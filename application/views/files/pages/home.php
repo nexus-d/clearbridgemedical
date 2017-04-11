@@ -60,7 +60,7 @@
 <div  class="tri-t-right"></div>
 <div  class="tri-t-left"></div>
 </div>-->
-<div class="custom-bg-darkblue" >
+<div class="custom-bg-white" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 ">
@@ -70,7 +70,7 @@
                         </span>
                         <h4 class="heading">Wellness</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="wellness" class="btn btn-xs btn-info"> Read more</a>
+                        <a href="wellness" class="btn btn-info"> Read more</a>
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@
                         </span>
                         <h4 class="heading"> Fitness</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="fitness" class="btn btn-xs btn-info"> Read more</a>
+                        <a href="fitness" class="btn btn-info"> Read more</a>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@
                         </span>
                         <h4 class="heading"> Medical Test</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="types-of-test" class="btn btn-xs btn-info"> Read more</a>
+                        <a href="types-of-test" class="btn btn-info"> Read more</a>
                     </div>
                 </div> 
 
@@ -103,7 +103,7 @@
                         </span>
                         <h4 class="heading">Our Programs</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="our-programs" class="btn btn-xs btn-info"> Read more</a>
+                        <a href="our-programs" class="btn btn-info"> Read more</a>
                     </div>
                 </div> 
 
@@ -118,7 +118,7 @@
 <div class="tri-b-left"></div>
 </div>-->
 
-<div class="mt-80 mb-40">
+<div class="mt-80">
  <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -195,7 +195,7 @@
         </div>
     </div>
 
-<div class="add_ons_gradient"> <!--gradient div-->
+<div class=""> <!--gradient div-->
 
 
 
@@ -248,7 +248,7 @@
 </div>
 
 
-<div class="call-out-1 pt-60 pb-60 mt-80">
+<div class="call-out-1 pt-60 pb-60">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -271,7 +271,7 @@
 
 </div><!--gradient div-->
 
-<div class="pt-40 pb-40 bgcolor2 mb-80">
+<div class="pt-40 pb-40 bgcolor2">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
