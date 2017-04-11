@@ -37,12 +37,16 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
     padding: 0px 15px !important;
 }
+.navbar-brand img{
+    width: 180px;
+    padding-bottom: 15px;
+}
 
 .header-1 .topbar{
     background-color: #2c4167 !important;
 }
 
-.header-1 .topbar a {color: #fff !important;float: left;padding: 14px;font-size: 10px;background: #3d6099;border-right: 1px solid rgba(0, 0, 0, 0.1);}
+.header-1 .topbar a {color: #fff !important;float: left;padding: 10px;font-size: 10px;background: #3d6099;border-right: 1px solid rgba(0, 0, 0, 0.1);}
 .header-1 .topbar a:hover{background-color: #254f91;}
 .header-1 .navbar-default {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -104,6 +108,10 @@ h1, h2, h3, h4, h5, h6 {
      color: #45aaff; 
 }
 
+.header-1 .navbar-default .navbar-toggle {
+    background-color: #ffffff;
+}
+
 .custom-page-header{
  padding: 300px 20px 40px !important;
 }
@@ -113,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     font-size: 14px;
     padding: 11px;
+    border-right: transparent;
 }
 
 
@@ -401,10 +410,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
 
 .custom-iconbox-4{
 	padding: 10px;
-
+    background-color: #ffffff;
 }
-
-
+.iconbox-4 .heading,
+.iconbox-4 i,
+.iconbox-4 p {
+    color: #0095c1;
+}
+.iconbox-4 p{
+    margin-bottom: 1.5em;
+}
 
 .title_top{
     width: 50%; 
@@ -598,26 +613,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
 
 /* End Custom Accordion Style 1 */
 
-
-
-/* Media Queries */
-
-
-
-
-
-
-/* End Media Queries */
-
 /* Carousel Custom */
 .carousel-control.left, .carousel-control.right {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    font-size: 30px;
     border-radius: 0px;
     background-color: rgba(22, 150, 231, 0.8);
 }
 .carousel-control {
     text-shadow: none;
 }
+
+/* Media Queries */
+@media all and (min-width: 480px){
+    .header-1 .topbar a:not(.telephone) {padding: 14px;}
+}
+@media all and (min-width: 768px){
+    /* carousel */
+    .carousel-control.left, .carousel-control.right {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+    .navbar-brand img{width: auto;padding-bottom: 0;}
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+    .header-1 .navbar-default .navbar-nav > li > a {
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+    .header-1 .navbar-default li > .sub-menu > li > a {
+        font-size: 11px;
+    }
+    .navbar-brand > img {
+        width: 140px;
+    }
+}
+/* End Media Queries */
