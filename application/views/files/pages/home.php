@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" >
     <title><?php echo $title;?></title>
     
     <?php echo $main_view_css_files; ?>
