@@ -63,9 +63,9 @@ class ContactUs extends CORE_Controller
     $data['sub_view_js_files']=$this->load->view('files/templates/sub_view_js_files','',TRUE);
     $data['loading']=$this->load->view('files/templates/loading','',TRUE);
     $data['header2']=$this->load->view('files/templates/header2','',TRUE);
-    $data['footer2']=$this->load->view('files/templates/footer','',TRUE);
+    $data['footer2']=$this->load->view('files/templates/footer2','',TRUE);
      $data['gcse_modal']=$this->load->view('files/templates/gcse_modal','',TRUE);
-    $data['title2']='Mailing Address | Clearbridge Medical Centre';
+    $data['title']='Mailing Address | Clearbridge Medical Centre';
     $this->load->view('files/pages/mailing_address',$data);
     }
 
