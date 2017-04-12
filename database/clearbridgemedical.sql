@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 12, 2017 at 04:16 AM
+-- Generation Time: Apr 12, 2017 at 04:07 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -39,6 +39,13 @@ CREATE TABLE `appointment_request` (
   `appointment_time` time DEFAULT '00:00:00',
   `date_created` timestamp NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `appointment_request`
+--
+
+INSERT INTO `appointment_request` (`appointment_request_id`, `fullname`, `email`, `phone`, `birthdate`, `gender`, `country`, `message`, `appointment_date`, `appointment_time`, `date_created`) VALUES
+(1, 'Denis Gutierrez', 'denis.insightmedica@gmail.com', '000000000000000', '2017-04-07', 'Male', 'Philippines', 'TEST', '2017-04-27', '09:00:00', '2017-04-12 02:28:13');
 
 -- --------------------------------------------------------
 
@@ -88,7 +95,7 @@ ALTER TABLE `enquiry`
 -- AUTO_INCREMENT for table `appointment_request`
 --
 ALTER TABLE `appointment_request`
-  MODIFY `appointment_request_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `appointment_request_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `enquiry`
 --
