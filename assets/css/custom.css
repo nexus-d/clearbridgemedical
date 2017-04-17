@@ -85,9 +85,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 15px;
 }
 
-/*.header-1 .topbar{
+.header-1 .topbar{
     background-color: #2c4167 !important;
-}*/
+}
 
 
 .header-1 .topbar a {color: #fff !important;float: left;padding: 10px;font-size: 10px;background: #3d6099;}
@@ -167,12 +167,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 11px;
     border-right: transparent;
 }
-
+.topbar a.search-header{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
 .header-1 .topbar a{
     font-size: 13px;
-    background-color: transparent;
+    background: #3D6099;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
     /*text-transform: capitalize;*/
     font-style: italic;
+}
+.header-1 .topbar a:first-child{
+    border-left:  1px solid rgba(0, 0, 0, 0.2);
 }
 /* End Header 1 Style */
 
