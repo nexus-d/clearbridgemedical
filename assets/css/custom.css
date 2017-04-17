@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .header-1 .topbar a {color: #fff !important;float: left;padding: 10px;font-size: 10px;background: #3d6099;}
-.header-1 .topbar a:hover{background-color: rgba(255, 255, 255, 0.2);color: #0095c1;}
+.header-1 .topbar a:hover{background-color: transparent;color: #0095c1;}
 .header-1 .navbar-default {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffff;
@@ -166,9 +166,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-1 .topbar a{
     font-size: 13px;
-    background-color: transparent;
+    background: #3D6099;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
     /*text-transform: capitalize;*/
     font-style: italic;
+}
+.header-1 .topbar a:first-child{
+    border-left:  1px solid rgba(0, 0, 0, 0.2);
 }
 /* End Header 1 Style */
 
