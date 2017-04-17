@@ -3,6 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
+               <a class="telephone" href="tel:"><i class="fa fa-phone"></i> +00 000-000-0000</a>
                <div class="pull-right">
                 <a href="contact-us/e-appointment" class="btn btn-xs btn-success"><i class="fa fa-plus"></i>Book Appointment</a>
                 <a href="contact-us/enquiry" class="btn btn-xs btn-danger"><i class="fa icon-i-information-us"></i>Enquiry</a>
