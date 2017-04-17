@@ -163,7 +163,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 11px;
     border-right: transparent;
 }
-
+.topbar a.search-header{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
 .header-1 .topbar a{
     font-size: 13px;
     background: #3D6099;

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <a class="btn btn-xs btn-info" href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                <a class="btn btn-xs btn-info search-header" href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
                 <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span class="hidden-sm hidden-xs"> Quick Search</span>
                 </a>
                <!--<a class="telephone" href="tel:"><i class="fa fa-phone"></i> +00 000-000-0000</a>-->
