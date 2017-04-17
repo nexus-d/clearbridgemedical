@@ -99,9 +99,9 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 11;
     min-height: 30px;
     color: #555555;
-/*    -webkit-box-shadow-bottom: 0 4px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow-bottom: 0 4px 4px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-1 .navbar-default li > .sub-menu {
@@ -113,11 +113,11 @@ h1, h2, h3, h4, h5, h6 {
 .header-1 .navbar-default .navbar-nav>li>a {
     padding: 15px 10px;
     color: #000;
-    /*border-right: 1px solid rgba(0, 0, 0, 0.1);*/
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header-1 .navbar-default .navbar-nav>li:first-child>a {
-    /*border-left: 1px solid rgba(0, 0, 0, 0.1);*/
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header-1 .navbar-default .navbar-nav > li:hover > a::after, .header-1 .navbar-default .navbar-nav > .active > a::after {
@@ -167,7 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 .header-1 .topbar a{
     font-size: 13px;
     background-color: transparent;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
+    font-style: italic;
 }
 /* End Header 1 Style */
 
