@@ -763,10 +763,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', end
 
 
 @media  screen and (max-width: 1366px) {
-    
-  carousel-inner>.item>a>img, .carousel-inner>.item>img {
-    width: 100%;
-    max-height: 420px;
-}
+    .carousel-inner {
+        max-height: 420px;
+    }
 }
 /* End Media Queries */
