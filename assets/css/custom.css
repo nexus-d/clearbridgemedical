@@ -81,13 +81,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 15px;
 }
 
-/*.header-1 .topbar{
+.header-1 .topbar{
     background-color: #2c4167 !important;
-}*/
+}
 
 
 .header-1 .topbar a {color: #fff !important;float: left;padding: 10px;font-size: 10px;background: #3d6099;}
-.header-1 .topbar a:hover{background-color: transparent;color: #0095c1;}
+.header-1 .topbar a:hover{background-color: rgba(255, 255, 255, 0.2);color: #0095c1;}
 .header-1 .navbar-default {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffff;
