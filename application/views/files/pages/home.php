@@ -66,7 +66,7 @@
                         </span>
                         <h4 class="heading">Wellness</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="wellness" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
+                        <a href="wellness" class="btn btn-info btn-bordered hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@
                         </span>
                         <h4 class="heading"> Fitness</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="fitness" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
+                        <a href="fitness" class="btn btn-info btn-bordered hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div>
 
@@ -88,7 +88,7 @@
                         </span>
                         <h4 class="heading"> Medical Test</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="types-of-test" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
+                        <a href="types-of-test" class="btn btn-info btn-bordered hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div> 
 
@@ -99,7 +99,7 @@
                         </span>
                         <h4 class="heading">Our Programs</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="our-programs" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
+                        <a href="our-programs" class="btn btn-info btn-bordered hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div> 
 
@@ -157,7 +157,7 @@
                 </div>
                 </div>
                 <div class=" col-sm-8 mt-20 mb-20">
-                <img  src="assets/images/20130912-is-shot-d-0242.png" class="img-responsive img-rounded hvr-grow" alt="">
+                <img  src="assets/images/20130912-is-shot-d-0242.png" class="img-responsive img-rounded img-team" alt="">
                 <ul class="social pull-right">
                 <li><a href=""><i class="fa fa-facebook"></i></a></li>
                 <li><a href=""><i class="fa fa-twitter"></i></a></li>
