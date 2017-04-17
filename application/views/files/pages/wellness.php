@@ -34,7 +34,7 @@
 
 
 
-<div class="department-single mt-80 mb-80">
+<div class=" mt-80 mb-80">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
@@ -45,14 +45,48 @@
                 <img alt="" src="assets/images/wellness.jpg"> </a>
                 </div>
                 </div>
-                        <div class="col-sm-12">
-                         <h2 class="heading custom-heading-max-wg">Wellness</h2>
-                            <p class="justify">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        </div>
+        <div class="col-sm-12">
+        <div class="heading-block">
+        <h2 class="heading">Wellness</h2>
+        </div>
+        <p class="justify">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        </div>
                     </div>
-<h3 class="heading custom-heading-max-wg">Medical Test</h3>             
+
+    <div class="col-sm-12">
+        <div class="heading-block">
+            <h2 class="heading">Medical Test</h2>
+        </div>
+    </div>
+                    
 <div class="col-sm-12">
-                        
+ <div class=" col-md-6">
+        <div class="iconbox-2 medical-test-box-style-2 hvr-grow">
+            <div class="iconbox-icon">
+                 <img  src="assets/images/ecal-icon.png" class="img-responsive img-rounded" alt="">
+            </div>
+            <div class="iconbox-content">
+                <h4 class="heading">ECAL Test</h4>
+                 <h5 class="text-color-rd">Resting Metabolic Rate</h5>
+                    <p class="justify text-size-11">ECAL Test measures your Resting Metabolic Rate to calculate your required calori intake in order to achieve your fitness goals.<br><br></p>
+                    <a href="types-of-test/metabolomic-test"  class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="iconbox-2 medical-test-box-style-2 hvr-grow">
+            <div class="iconbox-icon">
+                 <img  src="assets/images/kenkodo-icon.png" class="img-responsive img-rounded" alt="">
+            </div>
+            <div class="iconbox-content">
+                <h4 class="heading">Kenkodo Test</h4>
+                 <h5 class="text-color-rd">Metabolomic Test</h5>
+                    <p class="justify text-size-11">ClearBridge Medical Centre offers Kenkodo, a metabolism based body tracking tool. Kenkodo allows people to find their right work-life balance and predict their well-being.</p>
+                    <a href="types-of-test/metabolomic-test"  class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+            </div>
+        </div>
+    </div>
+              <!--          
 <div class="col-sm-6">
        <div class="event-box custom-event-box" style="background-image:url('assets/images/metabolic-icon.jpg')">
             <div class="event-header">
@@ -86,6 +120,7 @@
             </div>
         </div>
 </div>
+-->
 
 
                     </div>
@@ -96,41 +131,48 @@
 
                     <aside class="sidebar">          
                         <div class="widget widget-departments">
-                            <h4 class="heading custom-heading-max-wg">Our Programs </h4>
+                           <h3 class="heading">Our Programs</h3>
                            
             <div class="col-sm-12 ">
-                <div class="news-slider style-3">
+                <div class="news-slider style-4">
                     <div class="slider-items">
-                        <div>
-                            <h4 class="heading">Program 1</h4>
-                            <hr class="hr-2 left" />
-                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                            <a href="#" class="btn btn-sm btn-info">Read More</a>
-                        </div>
-                        <div>
-                            <h4 class="heading">Program 2</h4>
-                            <hr class="hr-2 left" />
-                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                            <a href="#" class="btn btn-sm btn-info">Read More</a>
-                        </div>
-                        <div>
-                            <h4 class="heading">Program 3</h4>
-                            <hr class="hr-2 left" />
-                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                            <a href="#" class="btn btn-sm btn-info">Read More</a>
-                        </div>
-                    </div>
-                    <div class="slider-nav">
-                        <div class="left"><i class="fa fa-angle-left"></i></div>
-                        <div class="right"><i class="fa fa-angle-right"></i></div>
-                    </div>
+                <div>
+                <div class="iconbox-1 program-slider text-center">
+                <img src="assets/images/program-1-icon.png" class="img-responsive img-rounded" alt="">
+                <div class="iconbox-content">
+                <h4 class="heading">Program 2</h4>
+                <h5 class="text-color-rd">Program 2</h5>
+                <p class="justify text-size-11">Behind the word mountains, far from the countries Vokalia and Consonan.<br><br></p>
+                <a href="types-of-test/program-1" class="btn btn-success btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
                 </div>
+                </div>
+
+                </div>
+
+                <div>
+                <div class="iconbox-1 program-slider text-center">
+                <img src="assets/images/program-2-icon.png" class="img-responsive img-rounded" alt="">
+                <div class="iconbox-content">
+                <h4 class="heading">Program 2</h4>
+                <h5 class="text-color-rd">Program 2</h5>
+                <p class="justify text-size-11">Behind the word mountains, far from the countries Vokalia and Consonan.<br><br></p>
+                <a href="types-of-test/program-2" class="btn btn-success btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+                </div>
+                </div>
+
+                </div>
+
+          
+
+                </div>
+
+                    </div>
             </div>
 
 
 
                         </div>
-                   
+                   <!--
                   <div class="widget widget-categories">
                         <h4 class="heading custom-heading-max-wg">We Also Have Other Programs</h4>
                         <ul class="widget-list">
@@ -142,6 +184,8 @@
                             
                         </ul>
                     </div>
+
+                    -->
 
 
                    

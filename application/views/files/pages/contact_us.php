@@ -21,7 +21,7 @@
 <?php echo $header; ?>
 
 
-<div class="page-header custom-page-header">
+<div class="page-header">
     
 </div>
 
@@ -30,9 +30,12 @@
 
 
 
-<div class="mt-80 mb-80 custom-bgcolor">
+<div class="mt-80 mb-80">
         <div class="container">
-         <h1 class="heading text-center"> Contact Us </h1>
+       
+           <div class="heading-block">
+        <h2 class="heading">Contact Us</h2>
+        </div>
             <div class="row">
 
 
@@ -66,21 +69,11 @@
         <div class="iconbox-content">
          <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
         </div>
-         <a href="contact-us/mailing-address" class="btn btn-info">Reach Us</a>
+         <a href="contact-us/mailing-address" class="btn btn-info">Our Office</a>
     </div>
 </div> 
 
 
-<div class="col-sm-6">
-<div class="iconbox-1">
-        <div class="iconbox-icon">
-         <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></div>
-        <div class="iconbox-content">
-         <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-        </div>
-         <a href="contact-us/operating-hours" class="btn btn-info"> Our Office </a>
-    </div>
-</div> 
 
 
 

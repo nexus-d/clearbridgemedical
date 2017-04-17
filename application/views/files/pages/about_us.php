@@ -21,12 +21,17 @@
 <?php echo $header; ?>
 
 
-<div class="page-header custom-page-header">
+<div class="page-header">
 </div>
 
-<div class=" custom-bg-white">
-        <div class="container">
-         <h1 class="heading custom-heading-max-wg"> <span class="text-color-db">About Us </span> </h1>
+<div class="">
+
+        <div class="container pt-20">
+            <div class="col-sm-12">
+                <div class="heading-block ">
+                    <h2 class="heading">About Us</h2>
+                </div>
+            </div>
             <div class="row">
             <div class="col-sm-12">
                 <div class="accordion-2">

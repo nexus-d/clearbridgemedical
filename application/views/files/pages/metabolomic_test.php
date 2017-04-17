@@ -34,7 +34,7 @@
 
 
 
-<div class="department-single mt-80 mb-80 custom-bgcolor">
+<div class="pt-40 custom-bgcolor">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
@@ -68,8 +68,10 @@
                             <div class="department-header mt-20">
                                 <div class="department-details">
                             
-<h2 class="heading text-center">Metabolomic Test</h2>
 
+        <div class="heading-block pt-60">
+        <h2 class="heading">Metabolomic Test</h2>
+        </div>
 </div>
 
 
@@ -80,7 +82,7 @@
                 <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #1
+                        Description 1
                     </a>
                 </h4>
             </div>
@@ -96,7 +98,7 @@
                 <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #2
+                         Description 2
                     </a>
                 </h4>
             </div>
@@ -112,7 +114,7 @@
                 <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #3
+                         Description 3
                     </a>
                 </h4>
             </div>
@@ -153,36 +155,65 @@
                                     <a href="../contact-us/e-appointment" type="submit" class="col-sm-12 btn btn-info"><i class="fa fa-paper-plane"></i>Book Appointment</a>
                                 </div>
                 
-                
- <div class="widget widget-testimonial">
-                       <div class="news-slider style-3">
+ <div class="widget widget-departments">
+                           <h3 class="heading">Our Programs</h3>
+                           
+            <div class="col-sm-12 ">
+                      <div class="news-slider style-4">
                     <div class="slider-items">
-                        <div>
-                            <h4 class="heading">Program 1</h4>
-                            <hr class="hr-2 left" />
-                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                            <a href="#" class="btn btn-sm btn-info">Read More</a>
-                        </div>
-                        <div>
-                            <h4 class="heading">Program 2</h4>
-                            <hr class="hr-2 left" />
-                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                            <a href="#" class="btn btn-sm btn-info">Read More</a>
-                        </div>
-                        <div>
-                            <h4 class="heading">Program 3</h4>
-                            <hr class="hr-2 left" />
-                            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-                            <a href="#" class="btn btn-sm btn-info">Read More</a>
-                        </div>
-                    </div>
-                    <div class="slider-nav">
-                        <div class="left"><i class="fa fa-angle-left"></i></div>
-                        <div class="right"><i class="fa fa-angle-right"></i></div>
-                    </div>
+                <div>
+                <div class="iconbox-1 program-slider text-center">
+                <img src="../assets/images/program-1-icon.png" class="img-responsive img-rounded" alt="">
+                <div class="iconbox-content">
+                <h4 class="heading">Program 2</h4>
+                <h5 class="text-color-rd">Program 2</h5>
+                <p class="justify text-size-11">Behind the word mountains, far from the countries Vokalia and Consonan.<br><br></p>
+                <a href="types-of-test/program-1" class="btn btn-success btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
                 </div>
+                </div>
+
+                </div>
+
+                <div>
+                <div class="iconbox-1 program-slider text-center">
+                <img src="../assets/images/program-2-icon.png" class="img-responsive img-rounded" alt="">
+                <div class="iconbox-content">
+                <h4 class="heading">Program 2</h4>
+                <h5 class="text-color-rd">Program 2</h5>
+                <p class="justify text-size-11">Behind the word mountains, far from the countries Vokalia and Consonan.<br><br></p>
+                <a href="types-of-test/program-2" class="btn btn-success btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+                </div>
+                </div>
+
+                </div>
+
+          
+
+                </div>
+
+                    </div>
+            </div>
+
+
+
+                        </div>
+                   <!--
+                  <div class="widget widget-categories">
+                        <h4 class="heading custom-heading-max-wg">We Also Have Other Programs</h4>
+                        <ul class="widget-list">
+                    <li><a href="#">Other Program 1 </a> </li>
+                    <li><a href="#">Other Program 2 </a> </li>
+                    <li><a href="#">Other Program 3 </a> </li>
+                    <li><a href="#">Other Program 4 </a> </li>
+                    <li><a href="#">Other Program 5 </a> </li>
+                            
+                        </ul>
                     </div>
 
+                    -->
+
+
+                   
 
                     </aside>
                 </div>

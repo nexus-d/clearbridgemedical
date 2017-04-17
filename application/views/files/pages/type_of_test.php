@@ -35,10 +35,42 @@
 <div class="pb-40 pt-40">
 <div class="container">
     <div class="col-sm-12">
-            <h2 class="heading custom-heading-max-wg">Medical Test</h2>
-         
-    </div>
+            <div class="heading-block">
+                <h2 class="heading">Medical Test</h2>
+                <p class="sub-heading">The backbone of our clinic</p>
+            </div>
+        </div>
+        
 <div class="row">
+
+     <div class=" col-sm-offset-2 col-md-4">
+        <div class="iconbox-2 medical-test-box-style-2 hvr-grow">
+            <div class="iconbox-icon">
+                 <img  src="assets/images/ecal-icon.png" class="img-responsive img-rounded" alt="">
+            </div>
+            <div class="iconbox-content">
+                <h4 class="heading">ECAL Test</h4>
+                 <h5 class="text-color-rd">Resting Metabolic Rate</h5>
+                    <p class="justify text-size-11">ECAL Test measures your Resting Metabolic Rate to calculate your required calori intake in order to achieve your fitness goals.<br><br></p>
+                    <a href="types-of-test/metabolomic-test"  class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="iconbox-2 medical-test-box-style-2 hvr-grow">
+            <div class="iconbox-icon">
+                 <img  src="assets/images/kenkodo-icon.png" class="img-responsive img-rounded" alt="">
+            </div>
+            <div class="iconbox-content">
+                <h4 class="heading">Kenkodo Test</h4>
+                 <h5 class="text-color-rd">Metabolomic Test</h5>
+                    <p class="justify text-size-11">ClearBridge Medical Centre offers Kenkodo, a metabolism based body tracking tool. Kenkodo allows people to find their right work-life balance and predict their well-being.</p>
+                    <a href="types-of-test/metabolomic-test"  class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+            </div>
+        </div>
+    </div>
+
+<!--
     <div class="col-sm-offset-2 col-sm-4">
         <div class="event-box custom-event-box" style="background-image:url('assets/images/metabolic-icon.jpg')">
             <div class="event-header">
@@ -72,6 +104,9 @@
             </div>
         </div>
     </div>
+-->
+
+
 </div>          
 </div>
 </div><!-- Home Medical Test-->

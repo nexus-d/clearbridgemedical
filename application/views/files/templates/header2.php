@@ -3,12 +3,16 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-               <div class="pull-right">
-                <a href="../contact-us/e-appointment" class="btn btn-xs btn-success"><i class="fa fa-plus"></i>Book Appointment</a>
-                <a href="../contact-us/enquiry" class="btn btn-xs btn-danger"><i class="fa icon-i-information-us"></i>Enquiry</a>
-                   <a class="btn btn-xs btn-info" href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span class="hidden-sm hidden-xs">Search</span>
-                </a>
+                    <a class="btn btn-xs btn-info" href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                    <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span class="hidden-sm hidden-xs">Search</span>
+                    </a>
+
+                    <div class="pull-right">
+                    <a href="../contact-us/e-appointment" class="btn btn-xs btn-success"><i class="fa fa-plus"></i>Book Appointment</a>
+                    <a href="../contact-us/enquiry" class="btn btn-xs btn-danger"><i class="fa icon-i-information-us"></i>Enquiry</a>
+                    <!--   <a class="btn btn-xs btn-info" href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                    <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span class="hidden-sm hidden-xs">Search</span>
+                    </a>-->
                 </div>
          
             </div>
@@ -48,14 +52,23 @@
                     <li><a href="../types-of-test/metabolomic-test">Metabolic Test</a>
                 </ul>
             </li> 
-            <li><a href="../our-programs">Our Programs</a>
+            <li><a href="../our-programs">Our Programs<span class="caret"></span></a>
+                <ul class="sub-menu">           <!-- Sub Menu -->
+                <li><a href="../our-programs/programs-1">Program 1</a></li>
+                <li><a href="../our-programs/programs-2">Program 2</a></li>
+                <li><a href="../our-programs/programs-3">Program 3</a></li>
+                <li><a href="../our-programs/programs-4">Program 4</a></li>   
+                <li><a href="../our-programs/programs-5">Program 5</a></li>
+               
+                
+                </ul>
             </li> 
             <li><a href="../contact-us">Contact Us <span class="caret"></span></a>
                 <ul class="sub-menu">           <!-- Sub Menu -->
                     <li><a href="../contact-us/e-appointment">E-Appointment</a></li>
                     <li><a href="../contact-us/enquiry">Enquiry Form </a></li>
-                    <li><a href="../contact-us/mailing-address">Mailing Address</a></li>
-                    <li><a href="../contact-us/operating-hours">Operating Hours</a></li>
+                    <li><a href="../contact-us/mailing-address">Our Office</a></li>
+                   
                 </ul>
             </li>
         </ul>

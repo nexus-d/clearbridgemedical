@@ -32,7 +32,7 @@
     <![endif]-->
 
     <link href="assets/css/animate.css" type="text/css" rel="stylesheet">
-
+    <link href="assets/css/hover-min.css" type="text/css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">   

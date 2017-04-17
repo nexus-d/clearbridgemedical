@@ -23,7 +23,6 @@
     <!--Google Fonts--> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400,400i" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900|Roboto:100,300i,400" rel="stylesheet">
     
     
@@ -33,7 +32,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+    <link href="../assets/css/animate.css" type="text/css" rel="stylesheet">
+    <link href="../assets/css/hover-min.css" type="text/css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="../assets/css/custom.css" type="text/css" rel="stylesheet">
    
@@ -43,6 +43,6 @@
 
 
         <!-- Pnotify  -->
-  <link href="../assets/css/pnotify.core.css" rel="stylesheet"> 
+    <link href="../assets/css/pnotify.core.css" rel="stylesheet"> 
   
 

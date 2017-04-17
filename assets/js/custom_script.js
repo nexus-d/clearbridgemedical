@@ -12,79 +12,73 @@ $('.panel-group').on('hidden.bs.collapse', toggleIcon);
 $('.panel-group').on('shown.bs.collapse', toggleIcon);
 
 
- $("#owl-example").owlCarousel();
 
 
 
 
-    $('#btn-submit-eapps').click(function(){
 
-            var btn=$(this);
-            var f=$('#frm-data');
-            if(validateRequiredFields(f)){
+$('#btn-submit-eapps').click(function(){
 
-                var _data=f.serializeArray(); //serialize data in array format
-                //console.log(_data);
-                $.ajax({
-                    "dataType":"json",
-                    "type":"POST",
-                    "url":"../logs/eapps",
-                    "data":_data,
-                    "beforeSend" : function(){
-                    //showSpinningProgress(btn);
-                    }
-                }).done(function(response){
+        var btn=$(this);
+        var f=$('#frm-data');
+        if(validateRequiredFields(f)){
+
+            var _data=f.serializeArray(); //serialize data in array format
+            //console.log(_data);
+            $.ajax({
+                "dataType":"json",
+                "type":"POST",
+                "url":"../logs/eapps",
+                "data":_data,
+                "beforeSend" : function(){
+                //showSpinningProgress(btn);
+                }
+            }).done(function(response){
+            showNotification(response);
+                if(response.stat=="success"){
+                clearFields(f); 
+            }
+            }).always(function(){
+            //showSpinningProgress(btn);
+            });
+
+
+
+        }
+});
+
+
+
+
+
+
+
+$('#btn-submit-enq').click(function(){
+        var btn=$(this);
+        var f=$('#frm-data');
+        if(validateRequiredFields(f)){
+            var _data=f.serializeArray(); //serialize data in array format
+            $.ajax({
+                "dataType":"json",
+                "type":"POST",
+                "url":"../logs/enq",
+                "data":_data,
+                "beforeSend" : function(){
+                //showSpinningProgress(btn);
+                }
+            }).done(function(response){
                 showNotification(response);
-                    if(response.stat=="success"){
-                    clearFields(f); 
-                }
-                }).always(function(){
-                //showSpinningProgress(btn);
-                });
-
-
-
+                if(response.stat=="success"){
+                clearFields(f); 
             }
-    });
+            }).always(function(){
+            //showSpinningProgress(btn);
+            });
 
 
 
-
-
-
-
-
-    $('#btn-submit-enq').click(function(){
-
-            var btn=$(this);
-            var f=$('#frm-data');
-            if(validateRequiredFields(f)){
-
-                var _data=f.serializeArray(); //serialize data in array format
-
-                //console.log(_data);
-
-                $.ajax({
-                    "dataType":"json",
-                    "type":"POST",
-                    "url":"../logs/enq",
-                    "data":_data,
-                    "beforeSend" : function(){
-                    //showSpinningProgress(btn);
-                    }
-                }).done(function(response){
-                    showNotification(response);
-                    if(response.stat=="success"){
-                    clearFields(f); 
-                }
-                }).always(function(){
-                //showSpinningProgress(btn);
-                });
-
-
-
-            }
-    });
+        }
+});
 
 
 
@@ -119,7 +113,6 @@ var validateRequiredFields=function(f){
 
   //  $('div.form-group').removeClass('has-error');
     $('input[required],textarea[required],select[required]',f).each(function(){
-
         if($(this).is('select')){
             if($(this).select2('val')==0||$(this).select2('val')==null){
                 showNotification({title:"Error!",stat:"error",msg:$(this).data('error-msg')});
@@ -145,5 +138,10 @@ var validateRequiredFields=function(f){
 
 
 
+
+$('.custom-iconbox-4').hover(
+       function(){ $(this).addClass('hvr-float');/* $(this).find('a').addClass('hvr-icon-forward')*/ },
+       function(){ $(this).removeClass('hvr-float') ; /*$(this).find('a').removeClass('hvr-icon-forward')*/ }
+)
 
 });

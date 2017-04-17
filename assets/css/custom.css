@@ -1,17 +1,33 @@
-body {
+body,html {
     -webkit-font-smoothing: antialiased;
-    font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  Merriweather, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #323232;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
-    background: rgb(240,249,255); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+background: #feffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+ }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.parallax-1 {
+    /* The image used */
+    background-image: url('https://plethorathemes.com/healthflex/ecwidshop/wp-content/uploads/sites/2/2016/02/cosmetic.jpg');
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
@@ -23,15 +39,38 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 0px;
 }
 
+
+/* GSE */
 .gsc-input input{
     color:#000 !important;
 }
 
 
+#gsc-i-id1{
+    line-height:0px !important;
+}
 
+
+.gsc-search-button-v2{
+
+    background-color: red !important;
+}
+.modal-header{
+    background-color: #2c4167;
+    padding: 0px;
+    
+}
+
+.modal-header > h4{
+    color:white;
+}
+
+/* End GSE */
 .offset-t-23{
     top: -23px;
 }
+
+
 
 /* Header 1 Style */
 .navbar-brand {
@@ -45,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-1 .topbar{
     background-color: #2c4167 !important;
 }
+
 
 .header-1 .topbar a {color: #fff !important;float: left;padding: 10px;font-size: 10px;background: #3d6099;border-right: 1px solid rgba(0, 0, 0, 0.1);}
 .header-1 .topbar a:hover{background-color: #254f91;}
@@ -119,50 +159,86 @@ h1, h2, h3, h4, h5, h6 {
 .topbar a.telephone,
 .topbar a:hover.telephone{
     background-color: transparent;
-    font-size: 14px;
+    font-size: 15px;
     padding: 11px;
     border-right: transparent;
 }
 
+.header-1 .topbar a{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 900px;
+}
 
 /* End Header 1 Style */
 
 
 /* Custom Background Color */
-.custom-bgcolor1 {
-	position: relative;
-    background-color: rgba(50,50,50,1);
-	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22), 0 25px 55px 0 rgba(0,0,0,.21);
-}
-
-.custom-aplha-background {
-    position: relative;
-    background-color: rgba(50,50,50,0.8);
-    box-shadow: 0 16px 28px 0 rgba(0,0,0,.22), 0 25px 55px 0 rgba(0,0,0,.21);
-}
 
 .custom-bg-white{
     background-color: rgba(255,255,255,1);
 }
 .custom-bg-darkblue{
     background-color: #2c4167;
+
+}
+.custom-bg-gray{
+    background-color: #efefef;
+}
+
+.bg-image{
+    
+      background-color: rgba(255,255,255,0.5);
+   
 }
 
 
-.add_ons_gradient{
-    padding: 50px 0px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
-background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */}
+.bg-image-parallax{
+
+        background-image: url('../images/xxxx.png') !important;
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+   
+}
+
+
+.custom-gradient-2{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+background: #feffff; /* Old browsers */
+/* background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+/* background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+/* background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.custom-gradient-1{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a0d8ef+0,ddf1f9+65,feffff+100 */
+background: #a0d8ef; /* Old browsers */
+background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 65%, #feffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 65%,#feffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 65%,#feffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+
+}
 
 
 
+.widget h3{
+    font-family:  Merriweather, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900px;
+    color: darkblue;
+    text-align: center;
+} 
 
-
+.widget-departments {
+    background-color: #ffffff; 
+}
 
 .tri-x-right{
     width: 100%; 
@@ -365,14 +441,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
 /* End Custom Triangle */
 
 /* home section  */
+.medical-test-box-style-2{
+    background: #fff;
+    height: auto;
+    width: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+
+}
+
+
+.program-box-style-1{
+    background: #fff;
+    height: auto;
+    width: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+
+}
+
+.program-slider > img{
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text-color-rd{
+    color: red;
+}
+.text-size-11{
+    font-size:11px;
+}
+
+
 .home-medical-test h2,.home-medical-test h4{
     color: white;
     font-weight: 900;
 }
 
-.caption-text-p{
-    color: white;
-}
+
 .medical-test-box{
         padding: 0px;
         background: #e5e5e5;
@@ -392,26 +503,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
     width: 100%;
 }
 
-.custom-event-box {
-    min-height: 300px; 
-}
+
 /* home section  */
 
-.text-color-rd{
-    color: #892c13;
-    font-weight: 900;
-}
 
-.text-color-db{
-    color: #2c4167;
-    font-weight: 900;
-}
 /*Icon Box */
 
 .custom-iconbox-4{
-	padding: 10px;
+	padding: 20px;
     background-color: #ffffff;
 }
+
+.custom-iconbox-4:hover{
+   
+      background-color:  #2c4167;
+}
+.custom-iconbox-4:hover i,.custom-iconbox-4:hover p ,.custom-iconbox-4:hover h4{
+     color: white;
+}
+
+.highlight-text{
+     padding: 10px;
+     background-color: rgba(50,50,50,0.5);
+     /*background-color: rgba(22,150,231,0.5);*/
+}
+.highlight-text p,
+.highlight-text h4{
+    color: #fff;
+}
+
+
 .iconbox-4 .heading,
 .iconbox-4 i,
 .iconbox-4 p {
@@ -419,6 +540,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
 }
 .iconbox-4 p{
     margin-bottom: 1.5em;
+}
+
+.iconbox-4{
+    padding: 20px;
+    margin: 0px 0px; 
 }
 
 .title_top{
@@ -460,7 +586,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
     padding: 10px;
     border: 1px solid #e5e5e5;
     overflow: hidden;
-}
+
 }
 
 
@@ -492,45 +618,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
 
 /* End Footer */
 
-.service_button {
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+
+.heading-block .sub-heading:before , .heading-block .sub-heading:after{
+    height: 0px;
 }
 
-.service_button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+.heading-block h2{
+    font-family:  Merriweather, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 550;
+    color:#341DB7;
 }
-
-.service_button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.100s;
-}
-
-.service_button:hover span {
-    padding: 20025px;
-
-}
-
-.service_button:hover span:after {
-  opacity: 1;
-  right: 0;
+.heading-block .sub-heading {
+       
+       margin: 0px auto 18px auto;
+   
 }
 
 
+
+.heading-block:before {
+  
+    height: 0px;
+    width:20%;
+    background-color: #1696e7;
+   
+}
 
 
 /* Custom Default Form Style 1 */
@@ -647,5 +759,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', e
     .navbar-brand > img {
         width: 140px;
     }
+}
+
+
+@media  screen and (max-width: 1366px) {
+    
+  carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    width: 100%;
+    max-height: 420px;
+}
 }
 /* End Media Queries */

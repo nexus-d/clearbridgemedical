@@ -55,12 +55,8 @@
     </a>
 </div>
 
-<!--
-<div class="col-md-12 offset-t-23">
-<div  class="tri-t-right"></div>
-<div  class="tri-t-left"></div>
-</div>-->
-<div class="custom-bg-white" >
+
+<div class="custom-bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 ">
@@ -70,7 +66,7 @@
                         </span>
                         <h4 class="heading">Wellness</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="wellness" class="btn btn-info"> Read more</a>
+                        <a href="wellness" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div>
 
@@ -81,18 +77,18 @@
                         </span>
                         <h4 class="heading"> Fitness</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="fitness" class="btn btn-info"> Read more</a>
+                        <a href="fitness" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div>
 
                <div class="col-sm-3 ">
                     <div class="iconbox-4 custom-iconbox-4">
                         <span class="iconbox-icon">
-                            <i class="fa fa-flask"></i>
+                            <i class="fa fa-user-md"></i>
                         </span>
                         <h4 class="heading"> Medical Test</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="types-of-test" class="btn btn-info"> Read more</a>
+                        <a href="types-of-test" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div> 
 
@@ -103,64 +99,102 @@
                         </span>
                         <h4 class="heading">Our Programs</h4>
                         <p>Behind the word mountains, far from the countries Vokalia and Consonan.</p>
-                        <a href="our-programs" class="btn btn-info"> Read more</a>
+                        <a href="our-programs" class="btn btn-info hvr-icon-forward hvr-pulse"> Read more</a>
                     </div>
                 </div> 
-
-
 
             </div>    
     </div>
 </div>   
-<!--
-<div class="col-md-12">
-<div class="tri-b-right"></div>
-<div class="tri-b-left"></div>
-</div>-->
 
-<div class="mt-80">
- <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                
-                    <h2 class="heading custom-heading-max-wg">Who <span class="color1">Are</span> We?</h2>
-                    <p class="sub-heading">Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-               
-            </div>
-            <div class="col-sm-12">
-                <div class="iconbox-2 right">
-                    <div class="text">
-                        <h4 class="heading">About Us</h4>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="about-us" class="btn btn-info btn-sm">Read More</a>    
+
+
+
+
+<div class="bg-image-parallax pt-20 pb-20">
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-block">
+                        <h2 class="heading">Who are we ?</h2>
                     </div>
                 </div>
-
-
-                <img src="">
-                <!--
-                <div class="iconbox-2 right">
-                    <!--<span class="count"><i class="fa fa-user"></i></span>
-                   <div class="text">
-                        <h4 class="heading">Mission and Vision</h4>
-                        <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="why-us.html" class="btn btn-info btn-sm">Read More</a>    
+                <div class="col-sm-offset-2 col-sm-3 mt-20 mb-20">
+                 <a href="about-us"><img  src="assets/images/about-us-icon-15.jpg" class="img-responsive hvr-pulse" alt=""></a>
+                </div>
+                <div class="col-sm-4">
+                <div class="feature-box justify highlight-text">
+                    <div class="text">
+                        <h4 class="heading">Hi-Tech Infrastructure</h4>
+                        <p class="justify">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     </div>
-                </div>-->
-
+                    <a href="about-us" class="btn btn-primary hvr-icon-forward hvr-pulse">Read More</a>
+                </div>
+                </div>
             </div>
         </div>
- 
 </div>
 
 
-<div>
-<div class="container mt-80  mb-80">
 
+
+
+<div class="bg-image-parallax pt-20 pb-20">
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-block">
+                        <h2 class="heading">Why Clearbridge Medical Centre ?</h2>
+                    </div>
+                </div>
+                <div class="  col-sm-4">
+                <div class="feature-box justify highlight-text">
+                    <div class="text">
+                        <h4 class="heading">Hi-Tech Infrastructure</h4>
+                        <p class="justify">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                      
+                    </div>
+                </div>
+                </div>
+                <div class=" col-sm-8 mt-20 mb-20">
+                <img  src="assets/images/20130912-is-shot-d-0242.png" class="img-responsive img-rounded hvr-grow" alt="">
+                <ul class="social pull-right">
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa fa-google"></i></a></li>
+                </ul>
+                </div>
+
+            </div>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--
+<div class="custom-bg-gray pt-20 pb-20">
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="heading custom-heading-max-wg">We value your <span class="color1">Life</span></h2>
-                
+                <div class="heading-block">
+                    <h2 class="heading">About Lifestyle</h2>
+                    </br >
+                </div>
             </div>
             <div class="col-sm-12">
                 <div class="tabs-1">
@@ -177,7 +211,6 @@
                                 <span><br/ ></span>
                             </a>
                         </li>
-                       
                     </ul>
 
                     <div class="tab-content">
@@ -185,148 +218,179 @@
                              is more than being free from illness, it is a dynamic process of change and growth. "...a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity.
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="t1body2">
-                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-                            <p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me.</p>
+                            <p> is more than being free from illness, it is a dynamic process of change and growth. "...a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity.</p>
                         </div>
-                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+-->
 
-<div class=""> <!--gradient div-->
+<div class="custom-gradient-1 pt-20 pb-20">
+    <div class="container">
+        <div class="col-sm-12">
+            <div class="heading-block">
+                <h2 class="heading">Medical Test</h2>
+                <p class="sub-heading">The backbone of our clinic</p>
+            </div>
+        </div>
+        
 
 
-
-<div class="pt-40  custom-bg-darkblue home-medical-test">
-<div class="container">
-    <div class="col-sm-12">
-            <h2 class="">Medical Test</h2>
-            <p class="caption-text-p">The Backbone of our clinic</p>
+    <div class=" col-sm-offset-2 col-md-4">
+        <div class="iconbox-2 medical-test-box-style-2 hvr-grow">
+            <div class="iconbox-icon">
+                 <img  src="assets/images/ecal-icon.png" class="img-responsive img-rounded" alt="">
+            </div>
+            <div class="iconbox-content">
+                <h4 class="heading">ECAL Test</h4>
+                 <h5 class="text-color-rd">Resting Metabolic Rate</h5>
+                    <p class="justify text-size-11">ECAL Test measures your Resting Metabolic Rate to calculate your required calori intake in order to achieve your fitness goals.<br><br></p>
+                    <a href="types-of-test/metabolomic-test"  class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+            </div>
+        </div>
     </div>
-<div class="row">
-    <div class="col-sm-offset-2 col-sm-4">
-        <div class="event-box custom-event-box" style="background-image:url('assets/images/metabolic-icon.jpg')">
-            <div class="event-header">
-                <h3 class="heading">ECAL Test</h3>
-                <ul class="event-details">
-                    <li class="text-color-rd">Resting Metabolic Rate</li>
-                </ul>
-                <div class="event-text">
-                    <br>
-                    <p class="justify">ECAL Test measures your Resting Metabolic Rate to calculate your required calori intake in order to achieve your fitness goals.</p>
-                    <br>
-                    <a href="types-of-test/metabolomic-test" class="btn btn-black btn-sm">Read More</a>
-                </div>
+    <div class="col-md-4">
+        <div class="iconbox-2 medical-test-box-style-2 hvr-grow">
+            <div class="iconbox-icon">
+                 <img  src="assets/images/kenkodo-icon.png" class="img-responsive img-rounded" alt="">
+            </div>
+            <div class="iconbox-content">
+                <h4 class="heading">Kenkodo Test</h4>
+                 <h5 class="text-color-rd">Metabolomic Test</h5>
+                    <p class="justify text-size-11">ClearBridge Medical Centre offers Kenkodo, a metabolism based body tracking tool. Kenkodo allows people to find their right work-life balance and predict their well-being.</p>
+                    <a href="types-of-test/metabolomic-test"  class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
             </div>
         </div>
     </div>
 
-    <div class="col-sm-4">
-        <div class="event-box custom-event-box" style="background-image:url('assets/images/metabolic-icon.jpg')">
-            <div class="event-header">
-                <h3 class="heading">Kenkodo Test</h3>
-                <ul class="event-details">
-                    <li class="text-color-rd">Metabolomic test</li>
-                </ul>
-                <div class="event-text">
-                    <br>
-                    <p class="justify">ClearBridge Medical Centre offers Kenkodo, a metabolism based body tracking tool. Kenkodo allows people to find their right work-life balance and predict their well-being.</p>
-                    <br>
-                    <a href="types-of-test/metabolomic-test" class="btn btn-black btn-sm">Read More</a>
+
+      
+
+        </div>          
+   
+</div>
+
+
+
+
+
+<div class="custom-gradient-2 pt-20 pb-20">
+        <div class="container">
+        <div class="col-sm-12">
+                <div class="heading-block">
+                    <h2 class="heading">Our Programs</h2>
+                    <p class="sub-heading">Check out our program.</p>
                 </div>
+        </div>
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-4">
+                    <div class="iconbox-2 program-box-style-1 hvr-grow">
+                    <div class="iconbox-icon">
+                    <img src="assets/images/program-1-icon.png" class="img-responsive img-rounded" alt="">
+                    </div>
+                    <div class="iconbox-content">
+                    <h4 class="heading">Program 1</h4>
+                    <h5 class="text-color-rd">Program 1</h5>
+                    <p class="justify text-size-11">ehind the word mountains, far from the countries Vokalia and Consonan.<br><br></p>
+                    <a href="types-of-test/program-1" class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+                    </div>
+                    </div>
+                </div>
+              
+                <div class="col-sm-4">
+                    <div class="iconbox-2 program-box-style-1 hvr-grow">
+                    <div class="iconbox-icon">
+                    <img src="assets/images/program-2-icon.png" class="img-responsive img-rounded" alt="">
+                    </div>
+                    <div class="iconbox-content">
+                    <h4 class="heading">Program 2</h4>
+                    <h5 class="text-color-rd">Program 2</h5>
+                    <p class="justify text-size-11">ehind the word mountains, far from the countries Vokalia and Consonan.<br><br></p>
+                    <a href="types-of-test/program-1" class="btn btn-primary btn-sm hvr-icon-forward hvr-pulse"> Read more</a>
+                    </div>
+                    </div>
+                </div>
+               
+               
             </div>
         </div>
     </div>
-</div>          
-</div>
-</div><!-- Home Medical Test-->
 
 
-
-</div>
-
-
-<div class="call-out-1 pt-60 pb-60">
+<div class="call-out-1 pt-60">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="left">
-                        <h3 class="inverse font-2 font24">Medical Test need. <strong>Wherever you need.</strong></h3>
+                        <h3 class="inverse font-2 font24"> <strong>Wherever you need Medical Test.</strong></h3>
                         <p class="inverse">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="right">
                         <i class="fa fa-message"></i>
-                        <span class="call-us"><strong class="inverse text-capitalize font20">Email Us</strong><br>test@gmail.com</span>
+                        <span class="call-us"><strong class="inverse ">Email Us</strong><br>test@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+<div class="pt-20 pb-20 custom-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="counter-box-4">
+                    <div class="fact-icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="fact-body">
+                        <span class="fact-count" data-from="0" data-to="912" data-speed="3000">912</span>
+                        <h5 class="heading">Number of Test</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="counter-box-4">
+                    <div class="fact-icon">
+                        <i class="fa fa-user-md"></i>
+                    </div>
+                     <div class="fact-body">
+                        <span class="fact-count" data-from="0" data-to="912" data-speed="3000">912</span>
+                        <h5 class="heading">Experienced Doctors On Panel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="counter-box-4">
+                    <div class="fact-icon">
+                        <i class="fa fa-stethoscope"></i>
+                    </div>
+                    <div class="fact-body">
+                        <span class="fact-count" data-from="0" data-to="200" data-speed="3000">200</span>
+                        <h5 class="heading">Our Programs</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="counter-box-4">
+                    <div class="fact-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="fact-body">
+                        <span class="fact-count" data-from="0" data-to="930" data-speed="3000">930</span>
+                        <h5 class="heading">Total visitors</h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-</div><!--gradient div-->
-
-<div class="pt-40 pb-40 bgcolor2">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="counter-box-4">
-                        <div class="fact-icon">
-                            <i class="fa fa-scissors"></i>
-                        </div>
-                        <div class="fact-body">
-                            <span class="fact-count" data-from="0" data-to="912" data-speed="3000">912</span>
-                            <h5 class="heading">Number of Test</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="counter-box-4">
-                        <div class="fact-icon">
-                            <i class="fa fa-scissors"></i>
-                        </div>
-                        <div class="fact-body">
-                            <span class="fact-count" data-from="0" data-to="245" data-speed="3000">245</span>
-                            <h5 class="heading">Experienced Doctors On Panel</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="counter-box-4">
-                        <div class="fact-icon">
-                            <i class="fa fa-scissors"></i>
-                        </div>
-                        <div class="fact-body">
-                            <span class="fact-count" data-from="0" data-to="930" data-speed="3000">930</span>
-                            <h5 class="heading">Healthy Meals served to patients</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="counter-box-4">
-                        <div class="fact-icon">
-                            <i class="fa fa-scissors"></i>
-                        </div>
-                        <div class="fact-body">
-                            <span class="fact-count" data-from="0" data-to="120" data-speed="3000">120</span>
-                            <h5 class="heading">Emergency Ready to Help</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
+</div>
     <?php echo $footer; ?>
     <?php echo $gcse_modal; ?>
     <?php echo $main_view_js_files; ?>
